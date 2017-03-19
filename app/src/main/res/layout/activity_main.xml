@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D92424"
+    tools:context="com.ulumis.kartumahasiswa.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:text="UNISNU JEPARA"
+        android:paddingTop="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/unisnu"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="Universitas Islam Nahdlatul Ulama'"
+        android:textSize="20sp"
+        android:id="@+id/unisnu_2"
+        android:layout_below="@id/unisnu"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:paddingTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:cropToPadding="true"
+        android:src="@drawable/foto"
+        android:layout_below="@id/unisnu_2"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:textSize="17sp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:id="@+id/spasi"
+        android:layout_below="@id/imageView"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:paddingLeft="10dp"
+        android:text="Siti Ulumis Sifaiya"
+        android:textSize="25sp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:id="@+id/nama"
+        android:layout_below="@id/spasi"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:paddingLeft="10dp"
+        android:text="141240000324"
+        android:textSize="25sp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:id="@+id/nim"
+        android:layout_below="@id/nama"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:paddingLeft="10dp"
+        android:text="Teknik Informatika"
+        android:textSize="25sp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:id="@+id/prodi"
+        android:layout_below="@id/nim"
+        />
+
+</RelativeLayout>
